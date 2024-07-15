@@ -20,6 +20,14 @@
 }
 
 /* simple media query */
+@media screen and (max-width: 1991px) {
+    .container{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .food img{
+        height: 56%;
+    }
+}
 
 @media screen and (max-width: 1399px) {
     .container{
